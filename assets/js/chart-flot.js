@@ -708,7 +708,7 @@ jQuery(function($) {
                         show: true,
                         lineWidth: 2,
                         fill: true,
-                        fillColor: "#ffffff",
+                        fillColor: "#6639E4",
                         symbol: "circle",
                         radius: 5
                     },
@@ -717,11 +717,11 @@ jQuery(function($) {
                 grid: {
                     hoverable: true,
                     clickable: true,
-                    tickColor: "#f9f9f9",
+                    tickColor: "#6639E4",
                     borderWidth: 1,
-                    borderColor: "#eeeeee"
+                    borderColor: "#6639E4"
                 },
-                colors: ["#e8962e", "#f46e0f", "#E91E63", "#FFC107", "#797979"],
+                colors: ["#6639E4", "#6639E4", "#E91E63", "#FFC107", "#797979"],
                 tooltip: true,
                 tooltipOpts: {
                     defaultTheme: true
