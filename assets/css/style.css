@@ -258,7 +258,9 @@ h2.h1 small{font-size: 24px}
     font-weight: 400;
 }
 img{
-    width: 100%
+    width: 20.01%;
+    border-radius: 10px;
+    
 }
 blockquote, .blockquote-reverse, blockquote.pull-right {
     font-size: 16px;
@@ -6977,7 +6979,7 @@ border-left: 3px solid transparent;
 }
 .r4_counter.has-gradient-to-right-bottom,
 .r4_counter:hover{
-    -webkit-box-shadow: 0 1px 28px rgba(255,152,0,.66);
+    -webkit-box-shadow: white;
     /* box-shadow: 0 1px 28px rgba(255,152,0,.66); */
     cursor: pointer;
 }
@@ -7553,7 +7555,7 @@ border-left: 3px solid transparent;
     width: 100%;
     z-index: 10;
     padding: 30px;
-    color: #f5f55;
+    color: #f5f575;
     text-align: left;
     text-shadow: none;
 }
