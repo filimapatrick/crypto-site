@@ -430,7 +430,8 @@ a:hover, a:focus {
     max-height: 60px;
 }
 .page-topbar .logo-area {
-    width: 100px;
+    width: 258px;
+    height: 250px;
     display: block;
     min-height: 60px;
     float: left;
@@ -8037,11 +8038,17 @@ border-left: 3px solid transparent;
     background-image: url('../images/logo.png');
     height: 0px;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .page-topbar.sidebar_shift .logo-area {
-    background-image: url('../images/logo-folded.png');
+    /* background-image: url('../images/logo-folded.png'); */
+    background-image: url('../images/logo.png');
     background-repeat: no-repeat;
     background-position: right top;
+    background-position: center;
+    background-size: cover;
+    height:0px;
 }
 .page-topbar.chat_shift .logo-area {
     background-image: url('../images/logo-folded.png');
@@ -8838,6 +8845,8 @@ border-left: 3px solid transparent;
 
     .page-topbar.sidebar_shift .logo-area{
         background-position: left top;
+        filter: invert(1);
+        width: 300px;
     }
 
     .page-topbar .quick-area .info-menu li.sidebar-toggle-wrap{
