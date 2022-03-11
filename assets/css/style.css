@@ -8051,7 +8051,7 @@ border-left: 3px solid transparent;
     height:0px;
 }
 .page-topbar.chat_shift .logo-area {
-    background-image: url('../images/logo-folded.png');
+    /* background-image: url('../images/logo-folded.png'); */
     background-repeat: no-repeat;
     background-position: right top;
 }
